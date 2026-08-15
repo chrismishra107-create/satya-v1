@@ -1,0 +1,258 @@
+TABLE COLUMNS {
+  "success": false,
+  "error": {
+    "code": "PGRST205",
+    "details": null,
+    "hint": null,
+    "message": "Could not find the table 'public.information_schema.columns' in the schema cache"
+  },
+  "data": null,
+  "count": null,
+  "status": 404,
+  "statusText": "Not Found"
+}
+CAN SELECT: id {
+  "success": true,
+  "error": null,
+  "data": [],
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+CAN SELECT: user {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.user does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: author {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.author does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: username {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.username does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: user_id {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.user_id does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: created_by {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": "Perhaps you meant to reference the column \"posts.created_at\".",
+    "message": "column posts.created_by does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: created_by_id {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.created_by_id does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: profile_id {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.profile_id does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: owner {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.owner does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: owner_id {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.owner_id does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: creator {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.creator does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: text {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.text does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: content {
+  "success": true,
+  "error": null,
+  "data": [],
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+CAN SELECT: body {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.body does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: message {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.message does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: post {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.post does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: created_at {
+  "success": true,
+  "error": null,
+  "data": [],
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+CAN SELECT: inserted_at {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.inserted_at does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: createdAt {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": "Perhaps you meant to reference the column \"posts.created_at\".",
+    "message": "column posts.createdAt does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
+CAN SELECT: insertedAt {
+  "success": false,
+  "error": {
+    "code": "42703",
+    "details": null,
+    "hint": null,
+    "message": "column posts.insertedAt does not exist"
+  },
+  "data": null,
+  "count": null,
+  "status": 400,
+  "statusText": "Bad Request"
+}
